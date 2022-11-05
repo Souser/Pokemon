@@ -1,0 +1,104 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("https://get.wallhere.com/photo/pokemon-Pok-balls-artwork-1368481.jpg");
+    color: aliceblue;
+}
+
+h1{
+
+    border: 9px solid #c19234;
+    background-color: #1B364F;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: snow;
+}
+
+section {
+    border: 9px solid #c19234;
+    background-color: #1B364F;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
+#Titulo{
+    text-align: center;
+}
+
+label#Feni{
+    position: relative;
+    top: 40px;
+
+}
+
+img#imgBulba{
+    position: relative;
+    top: 51%;
+    left: 0%;
+}
+
+img#iPiplup{
+    position: relative;
+    top: 42%;
+    left: 22%;
+}
+img#iFeni{
+    position: relative;
+    top: 42%;
+    left: 42%;
+}
+
+label#lbulba{
+    position: relative;
+    top: 42%;
+    left: 7%;
+}
+
+label#lpiplup{
+    position: relative;
+    top: 42%;
+    left: 42%;
+}
+
+label#lfeni{
+    position: relative;
+    top: 42%;
+    left: 77%;
+}
+
+#Modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.822);
+    
+}
+
+#Modal{
+    border: 9px solid #c19234;
+    background-color: #1B364F;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img.ataque-dialog{
+    width: 450px;
+    height: 300px;
+}
+
+#Modalagua{
+    border: 9px solid #c19234;
+    background-color: #1B364F;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#Modaltierra{
+    border: 9px solid #c19234;
+    background-color: #1B364F;
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>MOKEPON!</title>
+    <script src="./MOKEPON!_files/Pokemon.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2019/11/27/14/06/pokemon-4657023_960_720.png">
+</head>
+<body>
+    <h1 id="Titulo">POKEMON SOUFER 🔥💧🌱</h1>
+        <h2 id="seleccionar-1">Elige tu mascota:</h2>
+<section id="seleccionar-mascota">
+    <label for="Bulbasaur">
+        <img id="imgBulba" width="250px" height="220px" src="https://cdn.thinglink.me/api/image/880987645365190658/1024/10/scaletowidth?e=" alt=""> </label>
+    <label for="Piplup"> 
+        <img id="iPiplup" src="https://static.wikia.nocookie.net/espokemon/images/1/11/Piplup.png/revision/latest?cb=20120927233336" alt=""> </label>
+    
+    <label for="fennekin"> 
+        <img id="iFeni" src="https://static.wikia.nocookie.net/espokemon/images/1/11/Fennekin.png/revision/latest?cb=20131014044448"> </label>
+    
+</section>
+<br>
+<section id="section-seleccion">
+    <label id="lbulba" for="Bulbasaur" >
+        Bulbasaur
+        <input
+         type="radio" name="mascota" id="Bulbasaur"> 
+    </label>
+        
+    <label id="lpiplup" for="Piplup">
+        Piplup
+        <input type="radio" name="mascota" id="Piplup">
+    </label>
+        
+    <label id="lfeni" for="fennekin">
+        fennekin
+        <input type="radio" name="mascota" id="fennekin">
+    </label>
+        
+</section>
+<br>
+<center>
+    <button id="boton-mascota">Seleccionar</button>
+</center>
+<br>
+
+<section id="seleccionar-ataque" style="display: none;">
+    <h2>Elige tu ataque:</h2>
+<p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+<p>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
+<p>
+<button id="boton-fuego">Fuego 🔥</button>
+<button id="boton-agua">Agua 💧</button>
+<button id="boton-tierra">Tierra 🌱</button>
+</p>
+</section>
+<br>
+<section id="mensajes" style="display: none ;">
+</section>
+<br>
+<section id="reiniciar" style="display: none;">
+<button id="boton-reiniciar">Reiniciar</button>
+</section>
+
+<dialog id="Modal">
+    <span ><img class="ataque-dialog" src="https://static.wikia.nocookie.net/espokemon/images/6/6a/LlamaradaNB.gif/revision/latest/scale-to-width-down/200?cb=20130124201041" alt=""></span>
+    <br>
+    <center><button id="btn-cerrar-modal">Cerrar</button></center>
+</dialog>
+
+<dialog id="Modalagua">
+    <span > <img class="ataque-dialog" src="https://static.wikia.nocookie.net/espokemon/images/1/1e/EscaldarNB.gif/revision/latest/scale-to-width-down/200?cb=20130125004425" alt=""></span>
+    <br>
+    <center><button id="btn-cerrar-modal-agua">Cerrar</button></center>
+</dialog>
+
+<dialog id="Modaltierra">
+    <img class = "ataque-dialog" src="https://static.wikia.nocookie.net/espokemon/images/9/9c/MagnitudRZE.gif/revision/latest?cb=20120718002351" alt="">
+    <br>
+    <center><button id="btn-cerrar-modal-tierra">Cerrar</button></center>
+</dialog>
+
+
+</body></html>
